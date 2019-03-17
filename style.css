@@ -1,4 +1,5 @@
 body {
     background: slategrey;
- 
-    } 
+    direction: rtl;
+    text-align: right;
+    }

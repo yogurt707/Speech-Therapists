@@ -1,0 +1,94 @@
+[
+    {
+      "fname": "מור",
+      "lname": "שגב",
+      "image": "https://www.autism.org.il/wp-content/uploads/2011/08/76754284-300x199.jpg",
+      "therapyType": "דיקציה",
+      "hasClinic": "false",
+      "id": "445046588",
+      "isWillingToAriveHome": true,
+      "email": "mor@gmail.com",
+      "phone": ["0546313622","0722323929","035563808"],
+      "availableDates": [
+                          {"slot":{"date":"14/03/2019","timeStart":1000}},
+                          {"slot":{"date":"20/04/2019","timeStart":1000}},
+                          {"slot":{"date":"17/03/2019","timeStart":1000}}
+                        ],
+       "city":"חולון"                
+    },
+    {
+      "fname": "ליאור",
+      "lname": "אלישע",
+      "image": "https://education.tau.ac.il/sites/education.tau.ac.il/files/styles/reaserch_main_image_580_x_330/public/%D7%90%D7%91%D7%97%D7%95%D7%9F%20%D7%9C%D7%A7%D7%95%D7%99%D7%95%D7%AA%20%D7%9C%D7%9E%D7%99%D7%93%D7%94%20-2-580.jpg?itok=crdbA8Ye",
+      "therapyType": "גמגום",
+      "hasClinic": "true",
+      "id": "024332562",
+      "isWillingToAriveHome": false,
+      "email": "lior@gmail.com",
+      "phone": ["0506794858"],
+     "availableDates": [
+                          {"slot":{"date":"01/04/2019","timeStart":1000}}
+                       ],
+      "city":"הוד השרון"
+    },
+    {
+      "fname": "דקלה",
+      "lname": "רופין",
+      "image": "https://www.pigur.co.il/wp-content/uploads/2015/01/7415144_xl-300x199.jpg",
+      "therapyType": "דיקציה",
+      "hasClinic": "true",
+      "id": "056442469",
+      "isWillingToAriveHome": false,
+      "email": "dicla@gmail.com",
+      "phone": ["0506791188","0546457811","0722323333","035548484"],
+      "availableDates": [
+                          {"slot":{"date":"02/04/2019","timeStart":1000}}
+                       ],
+      "city":"תל אביב"
+    },
+    {
+      "fname": "ללי",
+      "lname": "ללה",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiSKfDO0T67H1KQp3m6nPTViHZYOG9fNrRBpDzAb3b-2UURemn0w",
+      "therapyType": "CP",
+      "hasClinic": "false",
+      "id": "450465548",
+      "isWillingToAriveHome": false,
+      "email": "lali@gmail.com",
+      "phone": ["0506795897"],
+      "availableDates": [
+                          {"slot":{"date":"12/04/2019","timeStart":1000}}
+                       ],
+      "city":"רחובות"
+    },
+    {
+      "fname": "אילנית",
+      "lname": "שמעוני",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzWUBSSlGaEC72SqFo4MEOKyIrpGXvr8mhoV9tQng8fvDfjlVblA",
+      "therapyType": "ילדים(הפרעות קשר)אוטיזם",
+      "hasClinic": "true",
+      "id": "332562845",
+      "isWillingToAriveHome": true,
+      "email": "ilanit@gmail.com",
+      "phone": ["0507118185","025568464"],
+      "availableDates": [
+                          {"slot":{"date":"14/03/2019","timeStart":1000}}
+                        ],
+      "city":"עפולה"                        
+    },
+    {
+      "fname": "שיראלה",
+      "lname": "ישראלי",
+      "image": "https://image.tmdb.org/t/p/w185_and_https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYkaa15GBdcLtPU3pjr9TBI60sBp6s-eAT-xsBnZZ8DXM4YjX2vgh278_bestv2/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+      "therapyType": "ילדים(הפרעות קשר)ילדים",
+      "hasClinic": "false",
+      "id": "424694846",
+      "isWillingToAriveHome": true,
+      "email": "shirela@gmail.com",
+      "phone": ["0507117099"],
+      "availableDates": [
+                          {"slot":{"date":"14/03/2019","timeStart":1000}}
+                        ],
+      "city":"תל אביב"
+    }
+  ]

@@ -1,0 +1,22 @@
+[
+    {
+      "fname": "בבי",
+      "lname": "בבה",
+      "image": "https://cdn2.momjunction.com/wp-content/uploads/2016/02/Is-It-Safe-For-Your-Kid-To-Drink-Ensure.jpg",
+      "therapyType": "דיקציה",
+      "id": "445046588",
+      "email": "mor@gmail.com",
+      "phone": ["0546313622","0722323929","035563808"],
+      "city":"חולון " 
+    },
+    {
+        "fname": "אגם",
+        "lname": "ישראלי",
+        "image": "https://campaignforkids.com/wp-content/uploads/2015/03/freekid-1024x768.jpg",
+        "therapyType": "גמגום",
+        "id": "445046588",
+        "email": "mor@gmail.com",
+        "phone": ["0546313622","0722323929","035563808"],
+        "city":"אזור " 
+    }
+  ]
