@@ -1,7 +1,178 @@
 <section>
 
-  <h4 class="my-5 text-center">---דף חיפוש קלינאית---</h4>
- 
-  {{5+5}}
+  <speech-t-navbar></speech-t-navbar>
 
+  <h4 class="my-5 text-center">פרטי החיפוש:</h4>
+  <form action="#">
+
+    <div class="container">
+      <h2 class="py-4">איזה קלינאי/ת ברצונך למצוא?</h2>
+      <div class="form-group">
+        <label for="name">שם:</label>
+        <input type="text" class="form-control w-50"  ng-model="name" id="name" name="name" placeholder="שם">
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="py-4 ">מהו תחום העיסוק המבוקש?</h2>
+
+      <div>תחום עיסוק
+        <select class="form-control w-50" ng-model="selectedTreatment" ng-options="Treatment for Treatment in Treatments">אזור בארץ
+        </select>
+      </div>
+
+
+
+        <h2 class="py-4">לאן נוח לך להגיע?</h2>
+        <div class="form-group">
+          <label for="name">עיר:</label>
+          <input type="text" class="form-control w-50" ng-model="city" id="city" name="city" placeholder="עיר">
+        </div>
+
+        <div>איזור בארץ
+          <select class="form-control w-50 my-3" ng-model="selectedregion" ng-options="region for region in regions">אזור בארץ
+          </select>
+        </div>
+
+        
+<!-- Opens more options for serch: -->
+  <div>
+      <button class="btn btn-warning my-3" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+         הוסף עוד קריטריונים :
+      </button>
+    
+
+    
+    <div class="collapse" id="collapseExample">
+        
+          <div>
+              <div class="container ">
+                <hr class="my-3">
+            
+                <div class="form-check">
+                  <h2 class="py-2">שעות קבלה</h2>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="Morning" id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      בוקר
+                    </label>
+                  </div>
+                </div>
+            
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" ng-model="noon" id="defaultCheck1">
+                  <label class="form-check-label mr-4" for="defaultCheck1">
+                    צהרים
+                  </label>
+                </div>
+            
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" ng-model="searchFileds.evening"  id="defaultCheck1">
+                  <label class="form-check-label mr-4" for="defaultCheck1">
+                    ערב
+                  </label>
+                </div>
+            
+              </div>
+              <div class="container">
+            
+                <div class="form-check">
+                  <h2 class="py-3">היכן יתבצע הטיפול</h2>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="false"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      טיפול בקליניקה
+                    </label>
+                  </div>
+                </div>
+            
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="false"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      הגעה לבתים
+                    </label>
+                  </div>
+                </div>
+            
+                <div class="form-check">
+                  <h2 class="py-3">מין הקלינאי</h2>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="man" id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      גבר
+                    </label>
+                  </div>
+                </div>
+            
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="woman"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      אישה
+                    </label>
+                  </div>
+                </div>
+            
+            
+                
+                <div class="form-check">
+                  <h2 class="py-3">שפות</h2>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="heb"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      עברית
+                    </label>
+                  </div>
+                </div>
+            
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="eng"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      אנגלית
+                    </label>
+                  </div>
+                </div>
+                
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="heb" id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      ערבית
+                    </label>
+                  </div>
+                </div>
+            
+                
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="russ"  id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      רוסית
+                    </label>
+                  </div>
+                </div>
+            
+                
+                <div class="form-check">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" ng-model="OtherLang" id="defaultCheck1">
+                    <label class="form-check-label mr-4" for="defaultCheck1">
+                      שפות אחרות
+                    </label>
+                  </div>
+                </div>
+                <hr class="my-3">
+            
+              </div>
+            </div>
+
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary px-5 w-50">חיפוש</button>
+</form>
+
+  <div class="my-5"></div>
 </section>

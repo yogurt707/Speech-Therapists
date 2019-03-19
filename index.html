@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"  ng-app="SpeechTherapistsApp">
   <head>
-    <title>חפש לי קלינאית</title>
+    <title>חפש לי קלינאי/ת</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,43 +20,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <!-- Routing -->
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-    <!-- Angular app is first link -->
+    
+      <!-- Angular app is first link -->
     <script src="app/SpeechTherapistsApp.js"></script>
 
     <!-- App files -->
+    <script src="app/navbar/navBardir.js" type="text/javascript" charset="utf-8"></script>
     <script src="app/searchPage/searchCtrl.js" type="text/javascript" charset="utf-8"></script>
     <script src="app/myProgress/myProgressCtrl.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app/searchPage/lookupSrv.js" type="text/javascript" charset="utf-8"></script>
 
 
       
     </head>
-  <body>
-    
-    
-  <!-- ------NavBars------ -->
+    <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <!-- Brand -->
-    <a class="navbar-brand" href="#!/home">הורים מוצאים קלינאית</a>
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <!-- Navbar links -->
-      <ul class="navbar-nav mr-auto align-right">
-        <li class="nav-item">
-          <a class="nav-link" href="#!/searchPage">חיפוש</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#!/myProgress">לאיזור האישי</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
+    
   <ng-view></ng-view>
 
-  </body>
 
+  </body>
 </html>

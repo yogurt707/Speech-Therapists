@@ -14,7 +14,10 @@
                           {"slot":{"date":"20/04/2019","timeStart":1000}},
                           {"slot":{"date":"17/03/2019","timeStart":1000}}
                         ],
-       "city":"חולון"                
+      "city":"חולון",
+      "region":"גוש דן",
+      "ismale":false
+
     },
     {
       "fname": "ליאור",
@@ -26,10 +29,13 @@
       "isWillingToAriveHome": false,
       "email": "lior@gmail.com",
       "phone": ["0506794858"],
-     "availableDates": [
+      "availableDates": [
                           {"slot":{"date":"01/04/2019","timeStart":1000}}
                        ],
-      "city":"הוד השרון"
+      "city":"הוד השרון",
+      "region" :"השרון",
+      "ismale":false
+      
     },
     {
       "fname": "דקלה",
@@ -44,7 +50,10 @@
       "availableDates": [
                           {"slot":{"date":"02/04/2019","timeStart":1000}}
                        ],
-      "city":"תל אביב"
+      "city":"תל אביב",
+      "region":"גוש דן",
+      "ismale":false
+      
     },
     {
       "fname": "ללי",
@@ -59,7 +68,10 @@
       "availableDates": [
                           {"slot":{"date":"12/04/2019","timeStart":1000}}
                        ],
-      "city":"רחובות"
+      "city":"רחובות",
+      "region":"מישור החוף הדרומי",
+      "ismale":false
+      
     },
     {
       "fname": "אילנית",
@@ -74,7 +86,10 @@
       "availableDates": [
                           {"slot":{"date":"14/03/2019","timeStart":1000}}
                         ],
-      "city":"עפולה"                        
+      "city":"עפולה",
+      "region":"עמק יזרעל",
+      "ismale":false
+                              
     },
     {
       "fname": "שיראלה",
@@ -89,6 +104,10 @@
       "availableDates": [
                           {"slot":{"date":"14/03/2019","timeStart":1000}}
                         ],
-      "city":"תל אביב"
+      "city":"תל אביב",
+      "region":"גוש דן",
+      "ismale":false
+
+
     }
   ]
